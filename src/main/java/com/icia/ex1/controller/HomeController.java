@@ -43,7 +43,7 @@ public class HomeController {
     @GetMapping("/req-param2")
     public String reqParam2(@RequestParam("name") String name,@RequestParam("age") int age){
         System.out.println("name = " + name + ", age = " + age);
-        return "index";
+        return "index1";
     }
 }
 
